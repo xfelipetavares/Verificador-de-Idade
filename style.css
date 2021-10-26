@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+:root {
+    font: normal 15pt Arial;
+}
+body {
+    background-color: #4386d3;
+    max-width: 600px;
+    min-width: none;
+    margin: auto;
+}
+header h1 {
+    color: white;
+    text-align: center;
+}
+section {
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 10px;
+    padding: 15px;
+}
+section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: none;
+    margin-inline: auto;
+}
+#p-resultado {
+    text-align: center;
+}
+footer {
+    color: white;
+    text-align: center;
+}
